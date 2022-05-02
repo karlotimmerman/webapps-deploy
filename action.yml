@@ -1,6 +1,7 @@
-# web app action
-name: 'Azure WebApp'
-description: 'Deploy Web Apps/Containerized Web Apps to Azure. github.com/Azure/Actions'
+# web app action- 
+
+name: Azure WebApp
+  uses: Azure/webapps-deploy@v2
 inputs: 
   app-name:
     description: 'Name of the Azure Web App'
